@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+.success-notification {
+  background-color: rgba(27, 235, 27, 0.565) !important;
+  box-shadow: none !important;
+}
+
+.error-notification {
+  background-color: rgba(228, 67, 67, 0.662) !important;
+  box-shadow: none !important;
+}

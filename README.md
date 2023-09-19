@@ -1,27 +1,21 @@
-# GrupoErreApp
+Grupo Erre App (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+Prerequisites
+Node.js: Make sure you have Node.js installed on your system. You can download it from nodejs.org.
 
-## Development server
+Getting Started
+Install Dependencies: Open your terminal, navigate to the project directory, and install the project dependencies using npm:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+npm install
+This will download and install the required packages.
 
-## Code scaffolding
+Update Variables: Update the necessary configuration variables in the app according to your requirements.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run in Development Mode: To run the app in development mode, use the following command:
+ng serve
+This will start a development server, and the app will be available at http://localhost:4200/. Any changes you make to the source code will automatically refresh the app in your browser.
 
-## Build
+Build for Production: To build the app for production, use the following command:
+ng build --prod
+This will create a production-ready build in the dist/ directory.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

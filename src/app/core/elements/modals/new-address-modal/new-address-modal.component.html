@@ -1,0 +1,27 @@
+<div>
+  <div class="modal-tittle">
+    <h1>Adress</h1>
+  </div>
+  <div>
+
+    <div class="row">
+      <div class="form-row col-12">
+        <label for="">Location/Address</label>
+        <input class="d-block w-100" (onDebounce)="geocodeAddress()" [(ngModel)]="address.name"
+          placeholder="Type Address">
+      </div>
+    </div>
+  </div>
+  <div>
+    <p>{{addressString}}</p>
+  </div>
+
+  <div #mapContainer class="maps-container">
+
+
+  </div>
+  <div class="modal-actions d-flex">
+    <button class="btn btn-danger m-1" (click)="closeModal()">Cancel</button>
+    <button class="btn btn-success m-1" (click)="confirm()">Save</button>
+  </div>
+</div>

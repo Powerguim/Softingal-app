@@ -1,0 +1,30 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card text-center">
+                <div class="card-header bg-primary text-white">
+                    <h2>User Profile</h2>
+                </div>
+                <div class="card-body">
+                    <img src="assets/images/softingal-logo.png" alt="User Image"
+                        class="img-fluid rounded-circle w-50 mb-3">
+                    <div class="bg-success text-white p-2 mb-3">
+                        <p>Has you can see, design is not the strong suit of this developer, but what counts is the
+                            functionality, i hope :D </p>
+                    </div>
+                    <div>
+                        <app-addresses-table></app-addresses-table>
+                    </div>
+
+                </div>
+                <div class="card-footer bg-secondary text-white">
+                    Thank you for visiting!
+
+                    <div>
+                        <button (click)="logout()" class="m-1 m-auto btn btn-danger">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
