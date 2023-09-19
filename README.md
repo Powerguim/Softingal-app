@@ -1,4 +1,4 @@
-Grupo Erre App (Angular)
+Softingal App (Angular)
 
 Prerequisites
 Node.js: Make sure you have Node.js installed on your system. You can download it from nodejs.org.
